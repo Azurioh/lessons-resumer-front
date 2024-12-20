@@ -5,6 +5,11 @@
     "services": "Services",
     "contact": "Contact"
   },
+  "footer": {
+    "faq": "FAQ",
+    "contact": "Contact Us"
+  },
+  "copyright": "All rights reserved",
   "home": {
     "welcome": "Welcome to the website!",
     "title": "Summarizing your lessons becomes child's play!",
@@ -14,6 +19,12 @@
     "about": {
       "title": "Don't waste time on your revisions anymore",
       "description": "With our application, you can summarize your lessons in just a few clicks. No need to spend hours rereading your notes, our app takes care of capturing the essentials!"
+    },
+    "testimonials": {
+      "title": "Your Feedback",
+      "text1": "Thanks to this app, I was able to optimize my study time and achieve better results",
+      "text2": "I recommend this app to all students who want to save time on their revisions",
+      "text3": "I've never been so efficient during my study sessions; I highly recommend this app!"
     }
   }
 }

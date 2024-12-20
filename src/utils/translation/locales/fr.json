@@ -5,6 +5,11 @@
     "services": "Services",
     "contact": "Contact"
   },
+  "footer": {
+    "faq": "Foire aux questions",
+    "contact": "Nous contacter"
+  },
+  "copyright": "Tous droits réservés",
   "home": {
     "welcome": "Bienvenue sur le site web !",
     "title": "Résumer ses cours devient un vrai jeu d'enfant !",
@@ -14,6 +19,12 @@
     "about": {
       "title": "Ne perdez plus de temps dans vos révisions",
       "description": "Avec notre application, vous pouvez résumer vos cours en quelques clics. Plus besoin de passer des heures à relire votre cours, notre application se charge de récupérer l'essentiel !"
+    },
+    "testimonials": {
+      "title": "Vos retours",
+      "text1": "Grâce à cette application, j'ai pu optimiser mon temps de révision et obtenir de meilleurs résultats",
+      "text2": "Je recommande cette application à tous les étudiants qui souhaitent gagner du temps dans leurs révisions",
+      "text3": "Je n'ai jamais été aussi efficace durant mes révisions, je recommande vivement cette application !"
     }
   }
 }
