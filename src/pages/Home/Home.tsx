@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import AboutImg from "@assets/landing_page/about.jpg";
 import Navbar from "@src/components/Navbar/Navbar";
 import style from "./Home.module.css";
+import Footer from "@src/components/Footer/Footer";
 
 const HomePage: React.FC = () => {
   const { t } = useTranslation();
@@ -13,9 +14,7 @@ const HomePage: React.FC = () => {
       <div className={style.container}>
         <div className={style.titleContainer}>
           <h1 className={style.title}>{t("home.title")}</h1>
-          <p className={style.subtitle}>
-            {t("home.subtitle")}
-          </p>
+          <p className={style.subtitle}>{t("home.subtitle")}</p>
           <div className={style.buttonContainer}>
             <a href="/register" className={style.button}>
               {t("home.try-it")}
@@ -34,6 +33,28 @@ const HomePage: React.FC = () => {
             <p>{t("home.about.description")}</p>
           </div>
         </div>
+        <div className={style.testimonialContainer}>
+          <h2>{t("home.testimonials.title")}</h2>
+          <div className={style.carousel}>
+            <div className={style.testimonialCard}>
+              <p className={style.testimonialAuthor}>Mattéo Milin</p>
+              <p>{t("home.testimonials.text1")}</p>
+              <p className={style.testimonialNotation}>9/10</p>
+            </div>
+            <div className={style.testimonialCard}>
+              <p className={style.testimonialAuthor}>Emma Trottin</p>
+              <p>{t("home.testimonials.text2")}</p>
+              <p className={style.testimonialNotation}>10/10</p>
+            </div>
+            <div className={style.testimonialCard}>
+              <p className={style.testimonialAuthor}>Thibaut Léonard</p>
+              <p>{t("home.testimonials.text3")}</p>
+              <p className={style.testimonialNotation}>9,5/10</p>
+            </div>
+            <div className={style.testimonialBackground} />
+          </div>
+        </div>
+        <Footer />
       </div>
     </>
   );
