@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { ApiProvider } from './contexts/ApiContext'
-import HomePage from '@pages/Home/Home'
-import DashboardPage from './pages/Dashboard/Dashboard'
-import PrivateRoute from './pages/PrivateRoute'
-import { Pages } from './enums/pages'
+import { ApiProvider } from '@contexts/ApiContext'
+import HomePage from '@pages/LandingPages/Home/Home'
+import DashboardPage from '@pages/LandingPages/Dashboard/Dashboard'
+import PrivateRoute from '@pages/PrivateRoute'
+import { Pages } from '@enums/pages'
 
 function App() {
 
