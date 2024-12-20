@@ -1,0 +1,19 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to the website!",
+    "title": "Summarizing your lessons becomes child's play!",
+    "subtitle": "With our tool, summarize your lessons easily and quickly, allowing you to optimize your learning time.",
+    "try-it": "Try it now",
+    "learn-more": "Learn more",
+    "about": {
+      "title": "Don't waste time on your revisions anymore",
+      "description": "With our application, you can summarize your lessons in just a few clicks. No need to spend hours rereading your notes, our app takes care of capturing the essentials!"
+    }
+  }
+}

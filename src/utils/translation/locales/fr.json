@@ -1,0 +1,19 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Bienvenue sur le site web !",
+    "title": "Résumer ses cours devient un vrai jeu d'enfant !",
+    "subtitle": "Avec notre outil, résumez vos cours de manière simple et rapide, vous permettant d'optimiser votre temps d'apprentissage",
+    "try-it": "Essayer maintenant",
+    "learn-more": "En savoir plus",
+    "about": {
+      "title": "Ne perdez plus de temps dans vos révisions",
+      "description": "Avec notre application, vous pouvez résumer vos cours en quelques clics. Plus besoin de passer des heures à relire votre cours, notre application se charge de récupérer l'essentiel !"
+    }
+  }
+}
