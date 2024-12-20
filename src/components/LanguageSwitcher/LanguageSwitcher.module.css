@@ -1,0 +1,24 @@
+.languages {
+  margin: 10px;
+}
+
+.languageIcon {
+  border: 1px solid transparent;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  transition: .15s;
+}
+
+.languageIcon:hover {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  margin: 2.5px;
+  /* background-color: var(--hover-color); */
+}
+
+/* 
+.active {
+  background-color: var(--selected-color);
+} */
