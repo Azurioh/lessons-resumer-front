@@ -1,5 +1,5 @@
-import { createContext, useContext } from "react";
-import authService, { type AuthService } from "../services/authService";
+import { createContext, useContext } from 'react';
+import authService, { type AuthService } from '../services/authService';
 
 interface ApiContextType {
   auth: AuthService;
@@ -23,7 +23,7 @@ export const ApiProvider: React.FC<ApiProviderProps> = ({ children }) => {
 export const useApi = (): ApiContextType => {
   const context = useContext(ApiContext);
   if (context === undefined) {
-    throw new Error("useApi must be used within a ApiProvider");
+    throw new Error('useApi must be used within a ApiProvider');
   }
   return context;
 };

@@ -17,7 +17,7 @@
     "allowImportingTsExtensions": true,
     "jsx": "react-jsx",
 
-    "baseUrl": "./src",  // Répertoire de base pour la résolution des modules
+    "baseUrl": "./src",
     "paths": {
       "@src/*": ["./*"],
       "@assets/*": ["assets/*"],
@@ -27,8 +27,8 @@
       "@pages/*": ["pages/*"],
       "@services/*": ["services/*"],
       "@utils/*": ["utils/*"],
-      "@icons/*": ["assets/icons/*"],
+      "@icons/*": ["assets/icons/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src"]
 }

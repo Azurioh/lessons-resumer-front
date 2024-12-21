@@ -1,23 +1,23 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { ApiProvider } from '@contexts/ApiContext'
-import HomePage from '@pages/LandingPages/Home/Home'
-import DashboardPage from '@pages/LandingPages/Dashboard/Dashboard'
-import PrivateRoute from '@pages/PrivateRoute'
-import { Pages } from '@enums/pages'
-import LoginPage from './pages/Auth/Login/Login'
+import { ApiProvider } from '@contexts/ApiContext';
+import { Pages } from '@enums/pages';
+import LoginPage from '@pages/Auth/Login/Login';
+import RegisterPage from '@pages/Auth/Register/Register';
+import DashboardPage from '@pages/LandingPages/Dashboard/Dashboard';
+import HomePage from '@pages/LandingPages/Home/Home';
+import PrivateRoute from '@pages/PrivateRoute';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-
   return (
     <ApiProvider>
       <BrowserRouter>
         <Routes>
           {/* Presentation page */}
           <Route path={Pages.home} element={<HomePage />} />
-          
+
           {/* Auth pages */}
           <Route path={Pages.login} element={<LoginPage />} />
-          <Route path={Pages.register} element={<DashboardPage />} />
+          <Route path={Pages.register} element={<RegisterPage />} />
           <Route path={Pages.forgotPassword} element={<DashboardPage />} />
           <Route path={Pages.resetPassword} element={<DashboardPage />} />
 
@@ -30,7 +30,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </ApiProvider>
-  )
+  );
 }
 
-export default App
+export default App;

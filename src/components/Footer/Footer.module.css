@@ -6,26 +6,26 @@
 }
 
 .footerContainer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
 
 .copyright {
-    position: absolute;
-    left: 0;
+  position: absolute;
+  left: 0;
 }
 
 .footerRow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
 }
 
 .footerRow a {
-    margin: 10px;
+  margin: 10px;
 }
