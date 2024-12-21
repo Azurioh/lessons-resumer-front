@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  width: min(800px, 70%);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 1px 8px 15px;
+}
+
+.loginForm {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-color);
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.inputs {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.inputs input {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputs input:hover {
+  border: 1px solid var(--secondary-color);
+}
+
+.inputs input:focus {
+  border: 1px solid var(--secondary-color);
+}
+
+button {
+  margin-top: 25px;
+}
+
+.register {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--text-color-alternative);
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.register p {
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.register a {
+  padding: 10px 50px;
+  color: var(--text-color-alternative);
+  border: 1px solid var(--text-color-alternative);
+  border-radius: 30px;
+  transition: 0.15s;
+}
+
+.register a:hover {
+  background-color: var(--text-color-alternative);
+  color: var(--secondary-color);
+}
+
+.register a:active {
+  transform: scale(0.95);
+}
+
+.color {
+  position: absolute;
+  top: -5;
+  left: -5;
+  min-height: 105%;
+  min-width: 105%;
+  opacity: 0.05;
+  background-color: var(--secondary-color);
+}
+
+.background {
+  position: absolute;
+  top: -5;
+  left: -5;
+  min-height: 105%;
+  min-width: 105%;
+  z-index: -1;
+  opacity: 1;
+  filter: blur(5px);
+}

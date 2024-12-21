@@ -26,5 +26,14 @@
       "text2": "I recommend this app to all students who want to save time on their revisions",
       "text3": "I've never been so efficient during my study sessions; I highly recommend this app!"
     }
+  },
+  "login": {
+    "title": "Login page",
+    "email": "Mail",
+    "password": "Password",
+    "submit": "Login",
+    "notRegistered": "Not already registered?",
+    "registerNow": "Register right now!",
+    "register": "Register"
   }
 }

@@ -26,5 +26,14 @@
       "text2": "Je recommande cette application à tous les étudiants qui souhaitent gagner du temps dans leurs révisions",
       "text3": "Je n'ai jamais été aussi efficace durant mes révisions, je recommande vivement cette application !"
     }
+  },
+  "login": {
+    "title": "Connexion",
+    "email": "Adresse mail",
+    "password": "Mot de passe",
+    "submit": "Se connecter",
+    "notRegistered": "Pas encore inscrit ?",
+    "registerNow": "Inscrivez-vous dès maintenant !",
+    "register": "S'inscrire"
   }
 }
