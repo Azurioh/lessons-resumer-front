@@ -4,6 +4,7 @@
   align-items: center;
   height: 100vh;
   width: 100%;
+  background-color: black;
 }
 
 .card {
@@ -14,6 +15,7 @@
   align-items: center;
   border-radius: 20px;
   box-shadow: 1px 8px 15px;
+  z-index: 2;
 }
 
 .loginForm {
@@ -30,11 +32,15 @@
 
 .inputs {
   display: flex;
-  width: 90%;
+  width: 80%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1em;
+}
+
+.inputs input, .inputs button, .register a {
+  z-index: 3;
 }
 
 .inputs input {
@@ -52,8 +58,10 @@
   border: 1px solid var(--secondary-color);
 }
 
-button {
+.loginButton {
+  font-size: 1em;
   margin-top: 25px;
+  border-radius: 25px;
 }
 
 .register {
@@ -98,21 +106,47 @@ h2 {
 
 .color {
   position: absolute;
-  top: -5;
-  left: -5;
-  min-height: 105%;
-  min-width: 105%;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
   opacity: 0.05;
+  z-index: 1;
   background-color: var(--secondary-color);
 }
 
 .background {
   position: absolute;
-  top: -5;
-  left: -5;
-  min-height: 105%;
-  min-width: 105%;
-  z-index: -1;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  max-width: 100%;
+  z-index: 0;
   opacity: 1;
   filter: blur(5px);
+}
+
+.background img {
+  overflow-x: hidden;
+}
+
+.loginForm a {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    height: 350px;
+  }
+  .register {
+    display: none;
+  }
+  .loginForm {
+    border-radius: 18px;
+  }
+  .loginForm a {
+    display: block;
+    margin-top: 20px;
+    z-index: 3;
+  }
 }
