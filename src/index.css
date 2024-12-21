@@ -9,7 +9,7 @@
 
   --main-gradiant-color: #1d28fb;
   /* --secondary-color: #f8f8f8; */
-  --background-color: rgba(255, 255, 255, 0.95);
+  --background-color: rgba(255, 255, 255, 1);
 
   --hover-color: #181818;
   --hover-color-alternative: #2d2d2d;
@@ -61,6 +61,9 @@ a {
 }
 a:hover {
   color: var(--hover-hyperlink-color);
+}
+a:active {
+  transform: scale(0.95);
 }
 
 body {
