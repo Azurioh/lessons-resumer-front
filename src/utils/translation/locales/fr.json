@@ -1,9 +1,15 @@
 {
+  "languages": {
+    "fr": "Français",
+    "fr_FR": "Français",
+    "en": "Anglais",
+    "en_US": "English"
+  },
   "navbar": {
     "home": "Accueil",
     "about": "À propos",
     "services": "Services",
-    "contact": "Contact"
+    "pricing": "Tarifs"
   },
   "footer": {
     "faq": "Foire aux questions",
@@ -13,7 +19,7 @@
   "home": {
     "welcome": "Bienvenue sur le site web !",
     "title": "Résumer ses cours devient un vrai jeu d'enfant !",
-    "subtitle": "Avec notre outil, résumez vos cours de manière simple et rapide, vous permettant d'optimiser votre temps d'apprentissage",
+    "subtitle": "Avec Résuma, résumez vos cours de manière simple et rapide, afin d'optimiser votre temps d'apprentissage",
     "try-it": "Essayer maintenant",
     "learn-more": "En savoir plus",
     "about": {
@@ -34,6 +40,20 @@
     "submit": "Se connecter",
     "notRegistered": "Pas encore inscrit ?",
     "registerNow": "Inscrivez-vous dès maintenant !",
+    "register": "S'inscrire",
+    "registerHidden": "Pas de compte ? Inscrivez-vous !"
+  },
+  "register": {
+    "title": "Inscription",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "username": "Nom d'utilisateur",
+    "email": "Adresse mail",
+    "password": "Mot de passe",
+    "alreadyRegister": "Déjà inscrit ?",
+    "loginNow": "Connectez-vous dès maintenant !",
+    "login": "Se connecter",
+    "loginHidden": "Déjà inscrit ? Connectez-vous !",
     "register": "S'inscrire"
   }
 }

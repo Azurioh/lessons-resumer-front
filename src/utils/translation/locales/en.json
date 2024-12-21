@@ -1,9 +1,15 @@
 {
+  "languages": {
+    "fr": "French",
+    "fr_FR": "Français",
+    "en": "English",
+    "en_US": "English"
+  },
   "navbar": {
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact"
+    "pricing": "Pricing"
   },
   "footer": {
     "faq": "FAQ",
@@ -13,7 +19,7 @@
   "home": {
     "welcome": "Welcome to the website!",
     "title": "Summarizing your lessons becomes child's play!",
-    "subtitle": "With our tool, summarize your lessons easily and quickly, allowing you to optimize your learning time.",
+    "subtitle": "With Resuma, summarize your lessons easily and quickly, allowing you to optimize your learning time.",
     "try-it": "Try it now",
     "learn-more": "Learn more",
     "about": {
@@ -34,6 +40,20 @@
     "submit": "Login",
     "notRegistered": "Not already registered?",
     "registerNow": "Register right now!",
+    "register": "Register",
+    "registerHidden": "No account? Register!"
+  },
+  "register": {
+    "title": "Register page",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "username": "Username",
+    "email": "Mail",
+    "password": "Password",
+    "alreadyRegister": "Already registered?",
+    "loginNow": "Login right now!",
+    "login": "Login",
+    "loginHidden": "Already registered? Login!",
     "register": "Register"
   }
 }
