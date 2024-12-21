@@ -13,17 +13,17 @@ const Navbar: React.FC = () => {
           <img src={Logo} alt="logo" className={style.logo} />
         </div>
         <div className={style.navbarLinks}>
-          <a href="#home" className={style.navbarLink}>
+          <a href="/home" className={style.navbarLink}>
             {t('navbar.home')}
           </a>
-          <a href="#about" className={style.navbarLink}>
+          <a href="/about" className={style.navbarLink}>
             {t('navbar.about')}
           </a>
-          <a href="#services" className={style.navbarLink}>
+          <a href="/services" className={style.navbarLink}>
             {t('navbar.services')}
           </a>
-          <a href="#contact" className={style.navbarLink}>
-            {t('navbar.contact')}
+          <a href="/pricing" className={style.navbarLink}>
+            {t('navbar.pricing')}
           </a>
         </div>
         <LanguageSwitcher />
