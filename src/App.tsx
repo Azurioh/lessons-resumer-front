@@ -4,6 +4,7 @@ import HomePage from '@pages/LandingPages/Home/Home'
 import DashboardPage from '@pages/LandingPages/Dashboard/Dashboard'
 import PrivateRoute from '@pages/PrivateRoute'
 import { Pages } from '@enums/pages'
+import LoginPage from './pages/Auth/Login/Login'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
           <Route path={Pages.home} element={<HomePage />} />
           
           {/* Auth pages */}
-          <Route path={Pages.login} element={<DashboardPage />} />
+          <Route path={Pages.login} element={<LoginPage />} />
           <Route path={Pages.register} element={<DashboardPage />} />
           <Route path={Pages.forgotPassword} element={<DashboardPage />} />
           <Route path={Pages.resetPassword} element={<DashboardPage />} />
