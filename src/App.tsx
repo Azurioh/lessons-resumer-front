@@ -6,6 +6,7 @@ import DashboardPage from '@pages/LandingPages/Dashboard/Dashboard';
 import HomePage from '@pages/LandingPages/Home/Home';
 import PrivateRoute from '@pages/PrivateRoute';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import PricingPage from './pages/LandingPages/Pricing/Pricing';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           {/* Presentation page */}
           <Route path={Pages.home} element={<HomePage />} />
+          <Route path={Pages.pricing} element={<PricingPage />} />
 
           {/* Auth pages */}
           <Route path={Pages.login} element={<LoginPage />} />
