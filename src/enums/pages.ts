@@ -4,6 +4,7 @@ export enum Pages {
   about = '/about',
   services = '/services',
   faq = '/faq',
+  pricing = '/pricing',
   contact = '/contact',
   // Auth Pages
   login = '/login',
