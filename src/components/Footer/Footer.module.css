@@ -1,4 +1,7 @@
 .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +27,11 @@
   align-items: center;
   text-align: center;
   margin: 30px;
+  text-align: center;
 }
 
 .footerRow a {
   margin: 10px;
+  transition: .3s;
+  width: 150px;
 }
