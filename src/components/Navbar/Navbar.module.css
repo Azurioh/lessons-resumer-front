@@ -40,4 +40,5 @@
   color: var(--text-color);
   margin: 10px;
   transition: 0.3s;
+  width: 80px;
 }
