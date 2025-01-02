@@ -12,7 +12,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Navbar />
-      <div className={style.container}>
+      <div className={style.homeContainer}>
         <div className={style.titleContainer}>
           <h1 className={style.title}>{t('home.title')}</h1>
           <p className={style.subtitle}>{t('home.subtitle')}</p>
