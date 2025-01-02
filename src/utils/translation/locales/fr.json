@@ -5,6 +5,12 @@
     "en": "Anglais",
     "en_US": "English"
   },
+  "currencies": {
+    "fr": "€",
+    "fr_FR": "€",
+    "en": "$",
+    "en_US": "$"
+  },
   "navbar": {
     "home": "Accueil",
     "about": "À propos",
@@ -31,6 +37,30 @@
       "text1": "Grâce à cette application, j'ai pu optimiser mon temps de révision et obtenir de meilleurs résultats",
       "text2": "Je recommande cette application à tous les étudiants qui souhaitent gagner du temps dans leurs révisions",
       "text3": "Je n'ai jamais été aussi efficace durant mes révisions, je recommande vivement cette application !"
+    }
+  },
+  "pricing": {
+    "title": "Choissisez l'offre qui vous convient",
+    "type": {
+      "monthly": "Paiement mensuel",
+      "annualy": "Paiement annuel"
+    },
+    "noEngagement": "Sans engagement",
+    "freeMonths": "2 mois gratuits",
+    "freeTier": {
+      "title": "Gratuit",
+      "description": "Résumez vos cours gratuitement",
+      "button": "Essayer"
+    },
+    "standardTier": {
+      "title": "Standard",
+      "description": "Accédez à plus de fonctionnalités pour un prix raisonnable",
+      "button": "S'abonner"
+    },
+    "premiumTier": {
+      "title": "Premium",
+      "description": "Accédez à toutes les fonctionnalités de l'application",
+      "button": "S'abonner"
     }
   },
   "login": {

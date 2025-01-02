@@ -5,6 +5,12 @@
     "en": "English",
     "en_US": "English"
   },
+  "currencies": {
+    "fr": "€",
+    "fr_FR": "€",
+    "en": "$",
+    "en_US": "$"
+  },
   "navbar": {
     "home": "Home",
     "about": "About",
@@ -31,6 +37,30 @@
       "text1": "Thanks to this app, I was able to optimize my study time and achieve better results",
       "text2": "I recommend this app to all students who want to save time on their revisions",
       "text3": "I've never been so efficient during my study sessions; I highly recommend this app!"
+    }
+  },
+  "pricing": {
+    "title": "Choose the offer that suits you",
+    "type": {
+      "monthly": "Monthly payment",
+      "annualy": "Annual payment"
+    },
+    "noEngagement": "Cancel anytime",
+    "freeMonths": "2 free months",
+    "freeTier": {
+      "title": "Free",
+      "description": "Summarize your lessons for free",
+      "button": "Try"
+    },
+    "standardTier": {
+      "title": "Standard",
+      "description": "Access more features for a reasonable price",
+      "button": "Subscribe"
+    },
+    "premiumTier": {
+      "title": "Premium",
+      "description": "Access all the features of the application",
+      "button": "Subscribe"
     }
   },
   "login": {
